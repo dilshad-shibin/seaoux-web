@@ -435,12 +435,12 @@ a,
     z-index: 999;
     -webkit-transition: .3s;
     transition: .3s;
-    background: transparent;
+    background: rgb(0 0 0 / 50%);
 }
 
 .navbar .navbar-nav .nav-link {
-    padding-right: 1.25rem;
-    padding-left: 1.25rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
     -webkit-transition: .3s;
     transition: .3s;
 }
@@ -502,7 +502,7 @@ a,
 /*NAVBAR DARK*/
 .navbar-dark .navbar-nav .nav-link {
     color: #fff;
-    font-size: 16px;
+    font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -552,19 +552,175 @@ a,
 
 .welcome-intro h1{
     color: #fff;
-    font-weight: 400;
+    font-weight: 700;
     letter-spacing: 1px;
-    font-size: 65px;
-    margin-bottom: 15px;
+    font-size: 70px;
+    margin-bottom: 50px;
 }
 
 .welcome-intro p{
-    color: #d3983f;
+    color: #e2393f;
     font-size: 22px;
     letter-spacing: 1px;
+    position: relative;
+    max-width: 240px;
+    margin-bottom: 15px;
+}
+
+.welcome-intro p::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    background-color: #e2393f;
+    width: 60px;
+    height: 2px;
 }
 
 .banner-img{
     display: none;
 }
 
+.banner-btn a{
+    color: #fff;
+    background-color: #e2393f;
+    padding: 15px 40px;
+    transition: all .3s ease;
+    border: 2px solid #e2393f;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.banner-btn a:hover{
+    color: #e2393f;
+    background-color: #fff;
+}
+
+/* ******************************
+:: 9.0 DOORS AREA CSS
+****************************** */
+.doors-area{
+    background-color: #e5e8ea;
+    padding: 90px 0 100px;
+}
+
+.area-inner{
+    background-color: #fff;
+    padding: 50px;
+    padding-left: 230px;
+    padding-right: 100px;
+    position: relative;
+}
+
+.area-inner .text-sec span{
+    color: #e2151d;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.area-inner .text-sec h2{
+    color: #41464c;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 10px;
+    max-width: 460px;
+    line-height: 1.3;
+}
+
+.area-inner .text-sec p{
+    color: #41464c;
+    font-size: 24px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    max-width: 550px;
+}
+
+.area-inner .img-sec{
+    display: flex;
+}
+
+.area-inner .img-sec .img-sec-inner{
+    background-color: #eff1f3;
+    padding: 30px 60px;
+    margin-bottom: 30px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.area-inner .img-sec .img-sec-inner:nth-child(1){
+    margin-right: 20px;
+}
+
+.area-inner .img-sec .img-sec-inner p{
+    color: #41464c;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 7px 0 0;
+}
+
+.area-inner .btn-sec{
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+}
+
+.area-inner .btn-sec a{
+    color: #fff;
+    background-color: #e2393f;
+    padding: 30px 20px;
+    transition: all .3s ease;
+    border: 2px solid #e2393f;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.area-inner .btn-sec a:hover{
+    color: #e2393f;
+    background-color: #fff;
+}
+
+.area-inner .big-door{
+    background-image: url(../img/doors/bigdoor.png);
+    height: 560px;
+    width: 230px;
+    position: absolute;
+    left: -100px;
+}
+
+.head-text{
+    position: absolute;
+    left: -120px;
+    top: 50%;
+}
+
+.head-text h2{
+    color: #ced4d8;
+    text-transform: uppercase;
+    font-size: 70px;
+    transform: rotate(270deg);
+    font-weight: 700;
+    letter-spacing: 10px;
+}
+
+/* ******************************
+:: 10.0 FEATURES AREA CSS
+****************************** */
+.feature-area{
+    background-color: #b32025;
+    padding: 100px 0;
+}
+
+.feature-inner .feature-box{
+    flex: 0 0 20%;
+}
+
+.feature-inner{
+    margin-bottom: 50px;
+}
+
+.feature-inner .feature-box .name h3{
+    color: #fff;
+}
