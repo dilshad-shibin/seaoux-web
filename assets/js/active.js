@@ -179,43 +179,78 @@
     });
 
     // :: 11.0 TESTIMONIALS ACTIVE CODE
-    var testimonialSlider = $('.testimonials');
-    testimonialSlider.owlCarousel({
-        items: 1,
+    $('.testi-slider.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 0,
         nav: false,
         dots: true,
-        smartSpeed: 500,
+        smartSpeed: 2000,
         autoplay: true,
-        loop: true,
-        mouseDrag: true,
-        touchDrag: true,
-        responsiveClass: true,
+        autoplayTimeout: 4000,
         responsive: {
             0: {
                 items: 1
             },
-            600: {
+            576: {
                 items: 1
             },
             768: {
+                items: 1
+            },
+            992: {
                 items: 1
             }
         }
     });
 
-    testimonialSlider.on("translate.owl.carousel", function () {
-        $(".single-testimonial img, .single-testimonial-thumb img, .client-rating").removeClass("animated zoomIn").css("opacity", "0");
+    //Door Slider
+    $('.door-slider.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 30,
+        nav: false,
+        dots: true,
+        smartSpeed: 2000,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        responsive: {
+            0: {
+                items: 1
+            },
+            576: {
+                items: 2
+            },
+            768: {
+                items: 2
+            },
+            992: {
+                items: 2
+            }
+        }
     });
-    testimonialSlider.on("translated.owl.carousel", function () {
-        $(".single-testimonial img, .single-testimonial-thumb img, .client-rating").addClass("animated zoomIn").css("opacity", "1");
-    });
-    $('.thumb-next').on('click', function () {
-        testimonialSlider.trigger('next.owl.carousel', [300]);
-        return false;
-    });
-    $('.thumb-prev').on('click', function () {
-        testimonialSlider.trigger('prev.owl.carousel', [300]);
-        return false;
+
+    //Feature Slider
+    $('.feature-slider.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 20,
+        nav: false,
+        dots: true,
+        smartSpeed: 2000,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        responsive: {
+            0: {
+                items: 2
+            },
+            576: {
+                items: 2
+            },
+            768: {
+                items: 3
+            },
+            992: {
+                items: 3
+            }
+        }
     });
 
     // :: 12.0 TEAM SLIDER ACTIVE CODE
