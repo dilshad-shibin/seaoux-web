@@ -878,7 +878,7 @@ a,
 :: 13.0 BLEND MESH AREA CSS
 ****************************** */
 .blend-mesh-area{
-    padding: 80px 0 110px;
+    padding: 100px 0 110px;
 }
 
 .blend-box{
@@ -975,8 +975,8 @@ a,
 
 .about-inner p{
     color: #222f4bc9;
-    line-height: 32px;
-    font-size: 19px;
+    line-height: 35px;
+    font-size: 22px;
     max-width: 670px;
     margin-bottom: 16px;
 }
