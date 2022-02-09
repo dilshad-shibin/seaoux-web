@@ -16,6 +16,15 @@
         max-width: 1200px;
     }
 }
+
+@media(max-width: 1440px){
+    .vsn-content{
+        padding: 0px 100px 0px 175px;
+    }
+    .vsn-content2{
+        padding: 0px 175px 0px 100px;
+    }
+}
 /* ******************************
 :: 2.0 HEADER AREA CSS
 ****************************** */
@@ -432,6 +441,21 @@
     .footer-product{
         margin-bottom: 30px;
     }
+    .title-head h1{
+        display: none;
+    }
+    .abt-img img{
+        margin-top: -260px;
+        margin-left: 0;
+        max-width: 330px;
+        margin-bottom: 30px;
+    }
+    .vsn-content{
+        padding: 40px 100px 40px 175px;
+    }
+    .order-991-2{
+        order: 2;
+    }
 }
 
 @media(max-width: 767px){
@@ -448,6 +472,9 @@
         left: -100px;
         top: -300px;
         display: none;
+    }
+    .shw-box{
+        margin-bottom: 20px;
     }
 }
 
@@ -621,5 +648,29 @@
         width: 14px;
         height: 14px;
         margin-right: 8px;
+    }
+    .abt-img img{
+        max-width: 100%;
+        margin: 0 auto;
+        margin-top: -260px;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    .row-abt{
+        padding: 80px 25px;
+    }
+    .about-textarea{
+        padding: 80px 30px;
+    }
+    .about-textarea p {
+        color: #222f4b;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .vsn-content{
+        padding: 50px 30px;
+    }
+    .vsn-content h1{
+        font-size: 55px;
     }
 }

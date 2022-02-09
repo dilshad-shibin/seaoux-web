@@ -14,6 +14,7 @@
 :: 14.0 ABOUT AREA CSS
 :: 15.0 TESTIMONIALS AREA CSS
 :: 16.0 FOOTER AREA CSS
+:: 17.0 ABOUT PAGE AREA CSS
 ****************************** */
 
 /* ******************************
@@ -1193,4 +1194,128 @@ a,
 
 .copy-inner p a img{
     max-width: 100px;
+}
+
+
+/* ******************************
+:: 17.0 ABOUT PAGE AREA CSS
+****************************** */
+.inner-banner{
+    background-color: #050709;
+    padding: 120px 0;
+    position: relative;
+}
+
+.inner-about{
+    background-color: #e5e8ea;
+    padding: 70px 0;
+}
+
+.title-head h1{
+    color: #ced4d8;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin-bottom: 50px;
+    padding-left: 54%;
+}
+
+.row-abt{
+    position: relative;
+    background-color: #fff;
+    padding: 80px 50px;
+    margin-bottom: 80px;
+}
+
+.abt-img img{ 
+    margin-top: -350px;
+    margin-left: -65px; 
+}
+
+.abt-text h2{
+    color: #222f4b;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 18px;
+}
+
+.abt-text p{
+    color: #222f4bc9;
+    line-height: 28px;
+    font-size: 18px;
+}
+
+.abt-box{
+    border: 1px solid #adafb2;
+    padding: 50px 20px;
+    margin-bottom: 40px
+}
+
+.abt-box .text h3{
+    color: #3a3c3f;
+    margin-top: 30px;
+}
+
+.box-row{
+    margin-bottom: 30px;
+}
+
+.about-textarea{
+    background-color: #fff;
+    padding: 80px 60px;
+}
+
+.about-textarea p{
+    color: #222f4b;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.text-row{
+    margin-bottom: 30px;
+}
+
+.vision-area .container-fluid{
+    padding: 0 !important;
+}
+
+.vsn-content{
+    padding: 0px 130px 0px 320px;
+}
+
+.vsn-content h1{
+    color: #ced4d8;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.vsn-content p{
+    color: #222f4b;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.vsn-content2{
+    padding: 0px 320px 0px 100px;
+}
+
+.vsn-img img{
+    width: 100%;
+}
+
+.showroom-area{
+    background-color: #e5e8ea;
+    padding: 80px 0;
+}
+
+.shw-head h1{
+    text-transform: uppercase;
+    color: #a4aaae;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin-bottom: 50px;
 }
