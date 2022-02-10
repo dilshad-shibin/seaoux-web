@@ -15,6 +15,7 @@
 :: 15.0 TESTIMONIALS AREA CSS
 :: 16.0 FOOTER AREA CSS
 :: 17.0 ABOUT PAGE AREA CSS
+:: 18.0 DOOR PAGE AREA CSS
 ****************************** */
 
 /* ******************************
@@ -1318,4 +1319,171 @@ a,
     font-weight: 700;
     letter-spacing: 5px;
     margin-bottom: 50px;
+}
+
+/* ******************************
+:: 18.0 DOOR PAGE AREA CSS
+****************************** */
+.banner-title h1{
+    color: #fff;
+    font-size: 55px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.inner-banner2{
+    padding: 160px 0 0;
+}
+
+.doors-page{
+    padding: 100px 0;
+}
+
+.product-head{
+    margin-bottom: 30px;
+}
+
+.product-head h3{
+    color: #3a3c3f;
+    font-size: 22px;
+}
+
+/* product box style */
+.product-grid2{
+    background-color: #eff1f3;
+}
+.product-grid2 .product-image2{
+    overflow:hidden;
+    position:relative
+}
+.product-grid2 .product-image2 a{
+    display:block
+}
+.product-grid2 .product-image2 img{
+    width:100%;
+    height:auto
+}
+.product-image2 .pic-1{
+    opacity:1;
+    transition:all .5s
+}
+.product-grid2:hover .product-image2 .pic-1{
+    transform: scale(1.55);
+}
+.product-image2 .social{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0;
+    visibility: hidden;
+}
+.product-grid2 .social li a{
+    color:#505050;
+    background-color:#fff;
+    font-size:17px;
+    line-height:45px;
+    text-align:center;
+    height:45px;
+    width:45px;
+    border-radius:50%;
+    display:block;
+    transition:all .3s ease 0s
+}
+.product-grid2 .social li a:hover{
+    color:#fff;
+    background-color:#e2393f;
+    box-shadow:0 0 10px rgba(0,0,0,.5)
+}
+.product-grid2 .social li a:after,
+.product-grid2 .social li a:before{
+    content:attr(data-tip);
+    color:#fff;
+    background-color:#000;
+    font-size:12px;
+    line-height:22px;
+    border-radius:3px;
+    padding:0 5px;
+    white-space:nowrap;
+    opacity:0;transform:translateX(-50%);
+    position:absolute;
+    left:50%;
+    top:-30px
+}
+.product-grid2 .social li a:after{
+    content:'';
+    height:15px;
+    width:15px;
+    border-radius:0;
+    transform:translateX(-50%) rotate(45deg);
+    top:-22px;
+    z-index:-1
+}
+.product-grid2 .social li a:hover:after,
+.product-grid2 .social li a:hover:before{
+    opacity:1
+}
+
+.product-grid2:hover .product-image2 .social{
+    opacity: 1;
+    visibility: visible;
+}
+
+.product-grid2 .product-content{
+    padding:20px 10px;
+    text-align:center
+}
+.product-grid2 .title{
+    font-size:17px;
+    margin:0 0 7px
+}
+.product-grid2 .title a{
+    color:#303030
+}
+.product-grid2 .title a:hover{
+    color:#e2393f
+}
+
+.pro-btn a{
+    color: #e2393f;
+    font-weight: 500;
+    font-size: 15px;
+    transform: all .3s ease;
+}
+
+.pro-btn a:hover{
+    text-decoration: underline;
+}
+
+.product-slider .owl-nav{
+    position: absolute;
+    right: 0;
+    top: -50px;
+}
+
+.product-slider .owl-nav button{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #e2393f !important;
+    border-radius: 50%;
+    line-height: 25px;
+    margin-right: 10px;
+}
+
+.product-slider .owl-nav button span{
+    font-size: 25px;
+    color: #e2393f;
+}
+
+.product-slider .owl-nav [class*=owl-]:hover{
+    background-color: #e2393f;
+}
+
+.product-slider .owl-nav [class*=owl-]:hover span{
+    color: #fff;
+}
+
+.pro-box-row{
+    margin-bottom: 80px;
 }

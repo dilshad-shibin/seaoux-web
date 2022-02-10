@@ -100,6 +100,7 @@
     $("a[href='#']").on('click', function ($) {
         $.preventDefault();
     });
+    
 
    // :: 11.0 TESTIMONIALS ACTIVE CODE
     $('.testi-slider.owl-carousel').owlCarousel({
@@ -172,6 +173,31 @@
             },
             992: {
                 items: 3
+            }
+        }
+    });
+
+    //Product Slider
+    $('.product-slider.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 20,
+        nav: true,
+        dots: false,
+        smartSpeed: 2000,
+        autoplay: false,
+        autoplayTimeout: 4000,
+        responsive: {
+            0: {
+                items: 1
+            },
+            576: {
+                items: 1
+            },
+            768: {
+                items: 3
+            },
+            992: {
+                items: 4
             }
         }
     });

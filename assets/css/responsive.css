@@ -673,4 +673,13 @@
     .vsn-content h1{
         font-size: 55px;
     }
+    .banner-title h1{
+        font-size: 30px;
+    }
+    .product-head {
+        margin-bottom: 55px;
+    }
+    .product-slider .owl-nav{
+        left: 0;
+    }
 }
