@@ -335,6 +335,10 @@
     .area-inner .img-sec .img-sec-inner .img img{
         min-height: 200px;
     }
+    .window-block .icon-box{
+        width: auto;
+        height: auto;
+    }
 }
 
 @media(max-width: 991px){
@@ -455,6 +459,10 @@
     }
     .order-991-2{
         order: 2;
+    }
+    .win-img-area{
+        max-width: 380px;
+        margin-bottom: 50px;
     }
 }
 
@@ -681,5 +689,8 @@
     }
     .product-slider .owl-nav{
         left: 0;
+    }
+    .block-head h1{
+        font-size: 45px;
     }
 }

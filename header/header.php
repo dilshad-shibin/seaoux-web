@@ -42,3 +42,9 @@
                 </div>
             </div>
         </header>
+
+        <!--====== Scroll To Top Area Start ======-->
+        <div id="scrollUp" title="Scroll To Top">
+            <i class="fa fa-angle-up"></i>
+        </div>
+        <!--====== Scroll To Top Area End ======-->

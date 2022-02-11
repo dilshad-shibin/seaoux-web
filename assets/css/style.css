@@ -16,6 +16,7 @@
 :: 16.0 FOOTER AREA CSS
 :: 17.0 ABOUT PAGE AREA CSS
 :: 18.0 DOOR PAGE AREA CSS
+:: 19.0 WINDOWS PAGE AREA CSS
 ****************************** */
 
 /* ******************************
@@ -30,6 +31,7 @@ font-family: 'Poppins', sans-serif; */
 :: 2.0 IMPORT ALL CSS
 ****************************** */
 @import url(bootstrap.min.css);
+/* @import url(et-line.css); */
 @import url(icofont.min.css);
 @import url(all.min.css);
 @import url(animate.min.css);
@@ -1486,4 +1488,148 @@ a,
 
 .pro-box-row{
     margin-bottom: 80px;
+}
+
+/* ******************************
+:: 19.0 WINDOWS PAGE AREA CSS
+****************************** */
+.windows-page{
+    padding: 100px 0;
+}
+
+.win-img-area{
+    position: relative;
+    padding: 30px 30px 0 30px;
+}
+
+.win-img-area .image{
+    position: relative;
+}
+
+.win-img-area::after{
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 15px;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    border: 8px solid #eef2ed;
+    transform: skew(-0deg,-8deg);
+}
+
+.content-column{
+    position: relative;
+}
+
+.content-column .head{
+    width: 100%;
+    border-bottom: 1px solid #eef2ed;
+}
+
+.content-column .head h2{
+    position: relative;
+    color: #41464c;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.4em;
+    padding-bottom: 26px;
+    max-width: 410px;
+}
+
+.content-column .txt{
+    margin-top: 30px;
+}
+
+.content-column .txt p{
+    position: relative;
+    color: #7c7b7b;
+    font-size: 18px;
+    line-height: 1.6em;
+    margin-bottom: 20px;
+}
+
+.windows-pro{
+    background-color: #e5e8ea;
+    padding: 80px 0;
+}
+
+.window-block{
+    position: relative;
+    margin-bottom: 50px;
+    background-color: #fff;
+    padding: 30px;
+}
+
+.window-block .icon-box{
+    position: relative;
+    width: 290px;
+    height: 290px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    line-height: 250px;
+    text-align: center;
+    border: 18px solid #eef2ed;
+    background: #e2393f url(../img/windows/window-pattern.png) center center no-repeat;
+}
+
+.window-block .icon-box .image{
+    position: relative;
+    display: inline-block;
+}
+
+.window-block .lower-content{
+    position: relative;
+    text-align: center;
+}
+
+.window-block .lower-content h3{
+    position: relative;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 18px;
+    display: inline-block;
+    color: #41464c;
+}
+
+.window-block .lower-content .text p{
+    position: relative;
+    color: #7c7b7b;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin-bottom: 15px;
+}
+
+.window-block .lower-content .win-btn {
+    position: relative;
+    color: #262626;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+
+.window-block .lower-content .win-btn a{
+    transition: all .3s ease;
+}
+
+.window-block .lower-content .win-btn a:hover{
+    color: #e2393f;
+}
+
+.window-block .lower-content .win-btn a .arrow{
+    position: relative;
+    top: 5px;
+    margin-left: 8px;
+    font-size: 30px;
+}
+
+.block-head h1{
+    color: #ced4d8;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    margin-bottom: 35px;
 }
