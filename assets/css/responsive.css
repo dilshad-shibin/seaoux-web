@@ -693,4 +693,22 @@
     .block-head h1{
         font-size: 45px;
     }
+    .smart-content{
+        padding-left: 0;
+    }
+    .smart-content .main-title h2{
+        font-size: 30px;
+    }
+    .smart-sub-title{
+        font-size: 16px;
+    }
+    .smart-content .main-title p{
+        font-size: 18px;
+    }
+    .smart-g{
+        padding-bottom: 20px;
+    }
+    .full-content h1{
+        font-size: 28px;
+    }
 }
