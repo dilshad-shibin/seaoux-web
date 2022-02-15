@@ -464,6 +464,9 @@
         max-width: 380px;
         margin-bottom: 50px;
     }
+    .contact-style{
+        margin-bottom: 30px;
+    }
 }
 
 @media(max-width: 767px){
@@ -710,5 +713,20 @@
     }
     .full-content h1{
         font-size: 28px;
+    }
+    .contact-now {
+        padding: 75px 0;
+    }
+    .contact-head h2{
+        font-size: 38px;
+    }
+    .contact-style li svg{
+        font-size: inherit;
+    }
+    .form-location form{
+        flex-direction: column;
+    }
+    .form-location{
+        padding: 33px 35px 42px 35px;
     }
 }

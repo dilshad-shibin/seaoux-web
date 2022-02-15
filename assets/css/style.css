@@ -18,6 +18,7 @@
 :: 18.0 DOOR PAGE AREA CSS
 :: 19.0 WINDOWS PAGE AREA CSS
 :: 20.0 SMART GLASS PAGE AREA CSS
+:: 21.0 CONTACT PAGE AREA CSS
 ****************************** */
 
 /* ******************************
@@ -1759,4 +1760,162 @@ a,
 .ft-box h4{
     color: #41464c;
     margin: 15px 0;
+}
+
+
+/* ******************************
+:: 21.0 CONTACT PAGE AREA CSS
+****************************** */
+.contact-now{
+    padding: 100px 0;
+}
+
+.contact-head span{
+    color: #e2151d;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.contact-head h2{
+    color: #41464c;
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 50px;
+    line-height: 1.3;
+}
+
+.contact-style{
+    justify-content: left;
+}
+
+.location-icon {
+    background: #e2151d;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+
+.contact-style li svg{
+    color: #fff;
+    font-size: 25px;
+}
+
+.contact-style .content-style{
+    padding: 4px 0 0 27px;
+}
+
+.contact-style .content-style h6{
+    color: #41464c;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.map-area .map{
+    position: relative;
+}
+
+.map-area .map iframe{
+    width: 100%;
+    height: 500px;
+}
+
+.content-contact{
+    background-color: #434e6e !important;
+    padding: 43px 23px 107px 43px;
+}
+
+.content-contact .title-section{
+    margin-bottom: 20px;
+}
+
+.title-section .sub-title{
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 3.3px;
+    color: #E3CCA1;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.title-section .flat-title{
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: -1px;
+    font-weight: bold;
+    padding: 0 !important;
+    color: #fff;
+    margin-top: 18px;
+    margin-bottom: 12px;
+}
+
+.title-section p{
+    color: #fff;
+}
+
+.form-location{
+    padding: 33px 50px 42px 50px;
+    background: #fff;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 6%);
+}
+
+.form-location form{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-location form .form-group{
+    margin-bottom: 25px;
+    flex: 0 0 48%;
+}
+
+.form-location form .form-group .form-control{
+    height: 66px;
+}
+
+.form-location form .form-group.last{
+    flex: 0 0 100%;
+}
+
+.form-location form .form-group textarea{
+    height: 100px !important;
+    width: 100%;
+}
+
+.topbar-social{
+    margin-top: 50px;
+}
+
+.topbar-social li a{
+    font-size: 30px;
+    margin-right: 20px;
+    transition: all .3s ease;
+}
+
+.topbar-social li a:hover{
+    color: #fff
+}
+
+.contact-form{
+    padding-bottom: 120px;
+    margin-top: -100px;
+}
+
+.submit-form{
+    color: #fff;
+    background-color: #e2393f;
+    padding: 15px 40px;
+    transition: all .3s ease;
+    border: 2px solid #e2393f;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.submit-form:hover{
+    color: #e2151d;
+    background-color: #fff;
 }
