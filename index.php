@@ -30,7 +30,7 @@
                             <p>Lorem ipsum is</p>
                             <h1>Lorem Ipsum is simply</h1>
                             <div class="banner-btn">
-                                <a href="#">View Products</a>
+                                <a href="doors.php">View Products</a>
                             </div>
                         </div>
                     </div>
@@ -79,7 +79,7 @@
                                 </div>
                             </div>
                             <div class="btn-sec">
-                                <a href="#">View Products</a>
+                                <a href="doors.php">View Products</a>
                             </div>
                         </div>
                     </div>
@@ -334,7 +334,7 @@
                                 </div>
                             </div>
                             <div class="btn-sec">
-                                <a href="#">View Products</a>
+                                <a href="windows.php">View Products</a>
                             </div>
                         </div>
                     </div>
@@ -350,7 +350,7 @@
                     <h3>Lorem Ipsum is simply dummy text of the printing</h3>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     <div class="glass-btn">
-                        <a href="#">View Products</a>
+                        <a href="smart-glass.php">View Products</a>
                     </div>
                 </div>
             </div>
@@ -382,7 +382,7 @@
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             </div>
                             <div class="blend-btn">
-                                <a href="#">View Products</a>
+                                <a href="remote-blends.php">View Products</a>
                             </div>
                         </div>
                     </div>
@@ -400,7 +400,7 @@
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             </div>
                             <div class="blend-btn">
-                                <a href="#">View Products</a>
+                                <a href="mosquito-mesh.php">View Products</a>
                             </div>
                         </div>
                     </div>
