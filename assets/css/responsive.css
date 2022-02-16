@@ -467,6 +467,10 @@
     .contact-style{
         margin-bottom: 30px;
     }
+    .msq-box{
+        margin-bottom: 30px;
+    }
+    
 }
 
 @media(max-width: 767px){
@@ -486,6 +490,9 @@
     }
     .shw-box{
         margin-bottom: 20px;
+    }
+    .msq-box .img img{
+        width: 100%;
     }
 }
 
@@ -728,5 +735,8 @@
     }
     .form-location{
         padding: 33px 35px 42px 35px;
+    }
+    .mosquito-head h2{
+        font-size: 32px;
     }
 }
