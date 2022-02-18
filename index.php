@@ -20,24 +20,63 @@
         <?php include('header/header.php'); ?>
 
         <!-- ***** Welcome Area Start ***** -->
-        <section id="home" class="section welcome-area bg-img d-flex align-items-center">
-            <div class="container container-banner">
-                <div class="row align-items-center">
-                    <!-- Welcome Intro Start -->
-                    <div class="col-12 col-md-12 col-lg-6">
-                        
-                        <div class="welcome-intro">
-                            <p>Lorem ipsum is</p>
-                            <h1>Lorem Ipsum is simply</h1>
-                            <div class="banner-btn">
-                                <a href="doors.php">View Products</a>
+        <section id="home" class="section">
+            <div class="welcome-slider owl-carousel">
+                <div class="welcome-area bg-img d-flex align-items-center">
+                    <div class="container container-banner">
+                        <div class="row align-items-center">
+                            <!-- Welcome Intro Start -->
+                            <div class="col-12 col-md-12 col-lg-6">
+                                
+                                <div class="welcome-intro">
+                                    <p>Lorem ipsum is</p>
+                                    <h1>Lorem Ipsum is simply</h1>
+                                    <div class="banner-btn">
+                                        <a href="doors.php">View Products</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-12 col-lg-6">
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-12 col-lg-6">
-                        <!-- <div class="banner-img">
-                            <img src="assets/img/bg/banner-bg.png" alt="">
-                        </div> -->
+                </div>
+                <div class="welcome-area bg-img d-flex align-items-center">
+                    <div class="container container-banner">
+                        <div class="row align-items-center">
+                            <!-- Welcome Intro Start -->
+                            <div class="col-12 col-md-12 col-lg-6">
+                                
+                                <div class="welcome-intro">
+                                    <p>Lorem ipsum is</p>
+                                    <h1>Lorem Ipsum is simply</h1>
+                                    <div class="banner-btn">
+                                        <a href="doors.php">View Products</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-12 col-lg-6">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="welcome-area bg-img d-flex align-items-center">
+                    <div class="container container-banner">
+                        <div class="row align-items-center">
+                            <!-- Welcome Intro Start -->
+                            <div class="col-12 col-md-12 col-lg-6">
+                                
+                                <div class="welcome-intro">
+                                    <p>Lorem ipsum is</p>
+                                    <h1>Lorem Ipsum is simply</h1>
+                                    <div class="banner-btn">
+                                        <a href="doors.php">View Products</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-12 col-lg-6">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -303,7 +342,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3">
-                        <div class="head-text">
+                        <div class="head-text head-text3">
                             <h2>Windows</h2>
                         </div>
                     </div>

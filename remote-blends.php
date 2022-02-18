@@ -20,7 +20,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-right">
-                        <div class="banner-title">
+                        <div class="banner-title" style="display:block">
                             <h1>Remote Blends</h1>
                         </div>
                     </div>

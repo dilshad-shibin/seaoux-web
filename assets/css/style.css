@@ -613,6 +613,58 @@ a,
     background-color: #fff;
 }
 
+.welcome-slider .owl-nav button.owl-prev{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+}
+
+.welcome-slider .owl-nav button.owl-next{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+}
+
+.welcome-slider .owl-nav button{
+    width: 55px;
+    height: 55px;
+    border: 1px solid #fff !important;
+    transition: all .3s ease;
+    border-radius: 50%;
+}
+
+.welcome-slider .owl-nav button span{
+    font-size: 45px;
+    font-weight: 200;
+    line-height: 40px;
+    color: #fff;
+}
+
+.welcome-slider .owl-nav [class*=owl-]:hover{
+    background: #e2393f;
+    color: #fff;
+    border: 1px solid #fff !important;
+}
+
+.welcome-slider .owl-dots{
+    position: relative;
+    bottom: 60px;
+    text-align: center;
+}
+
+.welcome-slider .owl-dots button{
+    background: #ddd;
+    width: 15px;
+    height: 15px;
+    margin-right: 6px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.welcome-slider .owl-dots button.active{
+    background-color: #fc425f;
+}
+
 /* ******************************
 :: 9.0 DOORS AREA CSS
 ****************************** */
@@ -733,8 +785,13 @@ a,
     letter-spacing: 10px;
 }
 
+.head-text2{
+    left: -145px;
+}
+
 .head-text2 h2{
     color: #e45156;
+    font-size: 60px;
 }
 
 /* ******************************
@@ -742,7 +799,7 @@ a,
 ****************************** */
 .feature-area{
     background-color: #b32025;
-    padding: 100px 0;
+    padding: 60px 0;
 }
 
 .feature-inner .feature-box{
@@ -751,6 +808,7 @@ a,
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
+    text-align: center;
 }
 
 .feature-inner{
@@ -880,6 +938,10 @@ a,
     font-size: 70px;
     font-weight: 700;
     letter-spacing: 10px;
+}
+
+.head-text3{
+    left: -178px;
 }
 
 /* ******************************
@@ -2143,3 +2205,29 @@ a,
     transform: translate3d(0, 0, 0);
     opacity: 1;
 }
+
+/* New changes */
+.banner-title{
+    display: none;
+}
+
+.main-header h1{
+    color: #ced4d8;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin-bottom: 80px;
+}
+
+.doors-page {
+    padding: 30px 0 100px;
+}
+
+.smart-g{
+    padding-top: 35px;
+}
+
+.main-header h1.smt{
+    font-size: 80px;
+}
+

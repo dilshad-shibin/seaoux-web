@@ -31,6 +31,13 @@
         <!-- ***** Smart Glass Area Start ***** -->
         <section class="smart-g section">
             <div class="container">
+                <div class="row">
+                    <div class="col-12 text-right txt-center-xs">
+                        <div class="main-header">
+                            <h1 class="smt">Smart Glass</h1>
+                        </div>
+                    </div>
+                </div>
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="smart-img">
