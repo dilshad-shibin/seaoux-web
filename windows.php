@@ -31,6 +31,13 @@
         <!-- ***** Windows Area Start ***** -->
         <section class="windows-page section">
             <div class="container">
+                <div class="row">
+                    <div class="col-12 txt-center-xs">
+                        <div class="main-header">
+                            <h1>Seaoux Windows</h1>
+                        </div>
+                    </div>
+                </div>
                 <div class="row align-items-center">
                     <div class="col-lg-4"  data-aos="fade-right" data-aos-delay="200">
                         <div class="win-img-area">

@@ -464,6 +464,13 @@
         max-width: 380px;
         margin-bottom: 50px;
     }
+    .contact-style{
+        margin-bottom: 30px;
+    }
+    .msq-box{
+        margin-bottom: 30px;
+    }
+    
 }
 
 @media(max-width: 767px){
@@ -483,6 +490,9 @@
     }
     .shw-box{
         margin-bottom: 20px;
+    }
+    .msq-box .img img{
+        width: 100%;
     }
 }
 
@@ -692,5 +702,57 @@
     }
     .block-head h1{
         font-size: 45px;
+    }
+    .smart-content{
+        padding-left: 0;
+    }
+    .smart-content .main-title h2{
+        font-size: 30px;
+    }
+    .smart-sub-title{
+        font-size: 16px;
+    }
+    .smart-content .main-title p{
+        font-size: 18px;
+    }
+    .smart-g{
+        padding-bottom: 20px;
+    }
+    .full-content h1{
+        font-size: 28px;
+    }
+    .contact-now {
+        padding: 75px 0;
+    }
+    .contact-head h2{
+        font-size: 38px;
+    }
+    .contact-style li svg{
+        font-size: inherit;
+    }
+    .form-location form{
+        flex-direction: column;
+    }
+    .form-location{
+        padding: 33px 35px 42px 35px;
+    }
+    .mosquito-head h2{
+        font-size: 32px;
+    }
+    #home{
+        height: 450px;
+    }
+    .txt-center-xs{
+        text-align: center !important;
+    }
+    .main-header h1{
+        font-size: 38px;
+        margin-bottom: 40px;
+    }
+    .windows-page{
+        padding-top: 30px;
+    }
+    .main-header h1.smt{
+        font-size: 38px;
     }
 }

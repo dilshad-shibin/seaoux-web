@@ -41,6 +41,13 @@
         <section class="doors-page section">
             <div class="container">
                 <div class="row">
+                    <div class="col-12 text-right txt-center-xs">
+                        <div class="main-header">
+                            <h1>Seaoux Doors</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
                     <div class="col-12">
                         <div class="product-head">
                             <h3>Sandwich Panel Doors</h3>
