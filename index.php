@@ -79,7 +79,7 @@
                                 </div>
                             </div>
                             <div class="btn-sec">
-                                <a href="#">View Products</a>
+                                <a href="doors.php">View Products</a>
                             </div>
                         </div>
                     </div>
@@ -334,7 +334,7 @@
                                 </div>
                             </div>
                             <div class="btn-sec">
-                                <a href="#">View Products</a>
+                                <a href="windows.php">View Products</a>
                             </div>
                         </div>
                     </div>
