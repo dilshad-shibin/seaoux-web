@@ -1091,6 +1091,8 @@ a,
     padding: 95px 100px 55px 100px;
     position: relative;
     flex: 0 0 100%;
+    max-width: 850px;
+    margin: 0 auto;
 }
 
 .quote-img img{
