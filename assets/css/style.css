@@ -872,7 +872,7 @@ a,
     background-color: #e5e8ea;
     padding-top: 120px;
     padding-bottom: 120px;
-    padding-left: 200px;
+    padding-left: 370px;
     padding-right: 70px;
 }
 
@@ -1088,9 +1088,13 @@ a,
 
 .testi-text{
     background-color: #e2393f;
-    padding: 130px 100px 80px 100px;
+    padding: 95px 100px 55px 100px;
     position: relative;
-    flex: 0 0 60%;
+    flex: 0 0 100%;
+}
+
+.quote-img img{
+    max-width: 80px;
 }
 
 .testi-img{
@@ -1499,12 +1503,12 @@ a,
 }
 
 .product-grid2 .product-content{
-    padding:20px 10px;
+    padding: 30px 10px;
     text-align:center
 }
 .product-grid2 .title{
-    font-size:17px;
-    margin:0 0 7px
+    font-size: 17px;
+    margin:0 0 20px
 }
 .product-grid2 .title a{
     color:#303030
@@ -1514,14 +1518,18 @@ a,
 }
 
 .pro-btn a{
-    color: #e2393f;
+    color: #fff;
+    background-color: #e2393f;
     font-weight: 500;
     font-size: 15px;
-    transform: all .3s ease;
+    transform: all .5s ease;
+    border: 1px solid #e2393f;
+    padding: 8px 25px;
 }
 
 .pro-btn a:hover{
-    text-decoration: underline;
+    background-color: #fff;
+    color: #e2393f;
 }
 
 .product-slider .owl-nav{
@@ -2220,7 +2228,7 @@ a,
 }
 
 .doors-page {
-    padding: 30px 0 100px;
+    padding: 100px 0 100px;
 }
 
 .smart-g{
@@ -2231,3 +2239,10 @@ a,
     font-size: 80px;
 }
 
+.doors-page-top{
+    background-color: #e5e8ea;
+}
+
+.content-column2 .head{
+    border-bottom: 1px solid #888d91;
+}

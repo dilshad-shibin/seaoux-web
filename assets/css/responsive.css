@@ -315,9 +315,29 @@
     .welcome-area{
         height: 800px;
     }
+    .glass-textarea{
+        padding-left: 200px;
+    }
 }
 
 @media(max-width: 1199px){
+    .glass-img-text {
+        position: absolute;
+        bottom: 14px;
+        left: -45%;
+    }
+    .glass-img-text h1{
+        font-size: 60px;
+    }
+    .remote-text{
+        top: -54px;
+    }
+    .remote-text h1{
+        font-size: 50px;
+    }
+    .glass-textarea{
+        padding-left: 120px;
+    }
     .welcome-area{
         height: 650px;
     }
@@ -612,7 +632,7 @@
         margin-bottom: 40px;
     }
     .testi-text{
-        padding: 65px 30px 80px 30px;
+        padding: 80px 30px 50px 30px;
     }
     .quote-img img{
         max-width: 50px;

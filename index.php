@@ -487,9 +487,9 @@
                                         <span>Mumbai</span>
                                     </div>
                                 </div>
-                                <div class="testi-img">
+                                <!-- <div class="testi-img">
                                     <img src="assets/img/testi.png" alt="">
-                                </div>
+                                </div> -->
                             </div>
 
                             <div class="single-testi d-flex">
@@ -503,9 +503,9 @@
                                         <span>Mumbai</span>
                                     </div>
                                 </div>
-                                <div class="testi-img">
+                                <!-- <div class="testi-img">
                                     <img src="assets/img/testi.png" alt="">
-                                </div>
+                                </div> -->
                             </div>
 
                             <div class="single-testi d-flex">
@@ -519,9 +519,9 @@
                                         <span>Mumbai</span>
                                     </div>
                                 </div>
-                                <div class="testi-img">
+                                <!-- <div class="testi-img">
                                     <img src="assets/img/testi.png" alt="">
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
