@@ -775,4 +775,10 @@
     .main-header h1.smt{
         font-size: 38px;
     }
+    .order-md-2{
+        order: 1;
+    }
+    .order-md-1{
+        order: 2;
+    }
 }

@@ -56,11 +56,98 @@
                         </div>
                     </div>
                     <div class="col-lg-8">
-                        <div class="content-column content-column2">
-                            <div class="head"><h2>Seaoux Doors Available With Wide Range Of Colors & Designs</h2></div>
+                        <div class="content-column content-column2 ml-40">
+                            <div class="head">
+                                <h2>Arteferro Collection</h2>
+                            </div>
                             <div class="txt">
                                 <p>Expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.</p>
                                 <p>The great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids it is those who do not know how to pursue pleasure.</p>
+                                <a href="arteferro-collection.php">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center mt-85">
+                    <div class="col-lg-4 order-2 order-md-2"  data-aos="fade-left" data-aos-delay="200">
+                        <div class="win-img-area">
+                            <div class="image">
+                                <img src="assets/img/doors/welcome-1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 order-1 order-md-1">
+                        <div class="content-column content-column2 mr-40">
+                            <div class="head">
+                                <h2>Designed Doors</h2>
+                            </div>
+                            <div class="txt">
+                                <p>Expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.</p>
+                                <p>The great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids it is those who do not know how to pursue pleasure.</p>
+                                <a href="designed-doors.php">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center mt-85">
+                    <div class="col-lg-4"  data-aos="fade-right" data-aos-delay="200">
+                        <div class="win-img-area">
+                            <div class="image">
+                                <img src="assets/img/doors/welcome-1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="content-column content-column2 ml-40">
+                            <div class="head">
+                                <h2>Double Louvre Contemporary Doors</h2>
+                            </div>
+                            <div class="txt">
+                                <p>Expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.</p>
+                                <p>The great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids it is those who do not know how to pursue pleasure.</p>
+                                <a href="double-louvre.php">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center mt-85">
+                    <div class="col-lg-4 order-2 order-md-2"  data-aos="fade-left" data-aos-delay="200">
+                        <div class="win-img-area">
+                            <div class="image">
+                                <img src="assets/img/doors/welcome-1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 order-1 order-md-1">
+                        <div class="content-column content-column2 mr-40">
+                            <div class="head">
+                                <h2>Handcrafted Doors</h2>
+                            </div>
+                            <div class="txt">
+                                <p>Expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.</p>
+                                <p>The great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids it is those who do not know how to pursue pleasure.</p>
+                                <a href="designed-doors.php">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center mt-85">
+                    <div class="col-lg-4"  data-aos="fade-right" data-aos-delay="200">
+                        <div class="win-img-area">
+                            <div class="image">
+                                <img src="assets/img/doors/welcome-1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="content-column content-column2 ml-40">
+                            <div class="head">
+                                <h2>Sandwich Panel Doors</h2>
+                            </div>
+                            <div class="txt">
+                                <p>Expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.</p>
+                                <p>The great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids it is those who do not know how to pursue pleasure.</p>
+                                <a href="double-louvre.php">View More</a>
                             </div>
                         </div>
                     </div>
@@ -69,13 +156,10 @@
         </section>
 
         <!-- ***** Doors Area Start ***** -->
-        <section class="doors-page section">
+        <!-- <section class="doors-page section">
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-right txt-center-xs">
-                        <!-- <div class="main-header">
-                            <h1>Seaoux Doors</h1>
-                        </div> -->
                     </div>
                 </div>
                 <div class="row">
@@ -779,7 +863,7 @@
                 </div>
 
             </div>
-        </section>
+        </section> -->
 
         <!-- ***** Footer Area Start ***** -->
         <?php include('footer/footer.php'); ?>

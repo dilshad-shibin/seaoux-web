@@ -175,6 +175,22 @@ img {
     display: none !important; 
 }
 
+.mt-40{
+    margin-top: 40px;
+}
+
+.mt-85{
+    margin-top: 85px;
+}
+
+.ml-40{
+    margin-left: 40px;
+}
+
+.mr-40{
+    margin-right: 40px;
+}
+
 /* ******************************
 :: 4.0 COMMON CSS
 ****************************** */
@@ -1570,7 +1586,7 @@ a,
 :: 19.0 WINDOWS PAGE AREA CSS
 ****************************** */
 .windows-page{
-    padding: 100px 0;
+    padding: 100px 0 140px;
 }
 
 .win-img-area{
@@ -1586,12 +1602,12 @@ a,
     position: absolute;
     content: "";
     right: 0;
-    top: 15px;
+    top: 5px;
     left: 0;
-    bottom: 0;
+    bottom: -25px;
     z-index: -1;
     border: 8px solid #eef2ed;
-    transform: skew(-0deg,-8deg);
+    /* transform: skew(-0deg,-8deg); */
 }
 
 .content-column{
@@ -1609,12 +1625,12 @@ a,
     font-weight: 600;
     font-size: 30px;
     line-height: 1.4em;
-    padding-bottom: 26px;
+    padding-bottom: 10px;
     max-width: 410px;
 }
 
 .content-column .txt{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .content-column .txt p{
@@ -1623,6 +1639,26 @@ a,
     font-size: 18px;
     line-height: 1.6em;
     margin-bottom: 20px;
+}
+
+.content-column .txt p:last-of-type{
+    margin-bottom: 45px;
+}
+
+.content-column .txt a{
+    color: #fff;
+    background-color: #e2393f;
+    padding: 15px 40px;
+    transition: all .3s ease;
+    border: 2px solid #e2393f;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.content-column .txt a:hover{
+    color: #e2393f;
+    background-color: #fff;
 }
 
 .windows-pro{
@@ -2241,9 +2277,9 @@ a,
     font-size: 80px;
 }
 
-.doors-page-top{
+/* .doors-page-top{
     background-color: #e5e8ea;
-}
+} */
 
 .content-column2 .head{
     border-bottom: 1px solid #888d91;
