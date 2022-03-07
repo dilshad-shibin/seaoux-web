@@ -139,6 +139,13 @@
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="mosquito-style">
+                            <a href="contact.php">Contact Now</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 

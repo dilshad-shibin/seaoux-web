@@ -52,6 +52,9 @@
                             <div class="txt">
                                 <p>Expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.</p>
                                 <p>The great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids it is those who do not know how to pursue pleasure.</p>
+                                <div class="windw-btn">
+                                    <a href="contact.php">Contact Now</a>
+                                </div>
                             </div>
                         </div>
                     </div>

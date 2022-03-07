@@ -781,4 +781,23 @@
     .order-md-1{
         order: 2;
     }
+    .doors-secondpage {
+        padding: 50px 0 80px;
+    }
+    h1.in-head{
+        font-size: 36px;
+    }
+    .banner-breadcrumb {
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+    .inner-about2 .abt-img img {
+        margin-top: -225px;
+    }
+    .inner-about2 .abt-text h2{
+        font-size: 30px;
+    }
+    .inner-about2 {
+        padding: 100px 0 0px;
+    }
 }

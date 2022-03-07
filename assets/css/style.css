@@ -21,6 +21,7 @@
 :: 21.0 CONTACT PAGE AREA CSS
 :: 22.0 MOSQUITO PAGE AREA CSS
 :: 23.0 REMOTE BLENDS PAGE AREA CSS
+:: 24.0 Doors inner PAGE CSS
 ****************************** */
 
 /* ******************************
@@ -1746,6 +1747,22 @@ a,
     margin-bottom: 35px;
 }
 
+.windw-btn a{
+    color: #fff;
+    background-color: #e2393f;
+    padding: 15px 40px;
+    transition: all .3s ease;
+    border: 2px solid #e2393f;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.windw-btn a:hover{
+    color: #e2393f;
+    background-color: #fff;
+}
+
 /* ******************************
 :: 20.0 SMART GLASS PAGE AREA CSS
 ****************************** */
@@ -2164,6 +2181,26 @@ a,
   pointer-events: none;
 }
 
+.mosquito-style {
+    margin-top: 80px;
+}
+
+.mosquito-style a{
+    color: #fff;
+    background-color: #e2151d;
+    padding: 12px 30px;
+    transition: all .3s ease;
+    border: 2px solid #e2393f;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.mosquito-style a:hover{
+    background-color: #fff;
+    color: #e2393f;
+}
+
 /* ******************************
 :: 23.0 REMOTE BLENDS PAGE AREA CSS
 ****************************** */
@@ -2284,3 +2321,136 @@ a,
 .content-column2 .head{
     border-bottom: 1px solid #888d91;
 }
+
+.remote-btn {
+    margin-top: 80px;
+}
+
+.remote-btn a{
+    color: #fff;
+    background-color: #e2151d;
+    padding: 12px 30px;
+    transition: all .3s ease;
+    border: 2px solid #e2393f;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.remote-btn a:hover{
+    background-color: #fff;
+    color: #e2393f;
+}
+
+/* ******************************
+:: 24.0 Doors inner PAGE CSS
+****************************** */
+.doors-secondpage{
+    padding: 100px 0;
+}
+
+h1.in-head{
+    color: #ced4d8;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin-bottom: 70px;
+}
+
+.product-box {
+    border: 1px solid #ced4d8;
+    margin: 5px;
+    border-radius: 5px;
+    transition: all .1s ease-in-out;
+}
+
+.product-box .content{
+    padding:0px 0 32px
+}
+
+.product-box .content h4{
+    margin-bottom: 16px;
+}
+
+.product-box .content a.content-btn{
+    color: #fff;
+    background-color: #e2393f;
+    padding: 6px 16px;
+    transition: all .3s ease;
+    border: 1px solid #e2393f;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.product-box:hover .content a.content-btn{
+    color: #e2393f;
+    background-color: transparent;
+}
+
+.product-box:hover{
+    transform: scale(1.02);
+}
+
+.inner-about2{
+    padding: 100px 0 70px;
+}
+
+.inner-about2 .abt-img img{
+    margin-top: -270px;
+}
+
+.inner-about2 .abt-text p{
+    margin-bottom: 35px;
+    font-size: 16px;
+}
+
+.inner-about2 table th{
+    color: white;
+    background: black;
+}
+
+.inner-pro-btn{
+    margin-top: 35px;
+}
+
+.inner-pro-btn a{
+    color: #fff;
+    background-color: #e2393f;
+    padding: 15px 40px;
+    transition: all .3s ease;
+    border: 2px solid #e2393f;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.inner-pro-btn a:hover{
+    color: #e2393f;
+    background-color: #fff;
+}
+
+.bread-nav a{
+    color: #fff;
+    font-size: 16px;
+    transition: all .3s ease;
+}
+
+.bread-nav a:hover{
+    color: #e2151d;
+}
+
+.bread-nav2 a{
+    margin-left: 10px;
+}
+
+.inner-banner2{
+    padding: 120px 0 50px;
+}
+
+.banner-breadcrumb{
+    padding-top: 45px;
+}
+/* ******************************
+:: 25.0  PAGE CSS
+****************************** */
